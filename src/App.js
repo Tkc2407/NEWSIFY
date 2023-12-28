@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Navbar from './Components/Navbar';
 import News from './Components/News';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -19,7 +19,7 @@ const App=()=> {
 
     return (
       <div>
-        <Router>
+        <Router basename="/Newsify">
           <Navbar />
           <LoadingBar
             height={3}
