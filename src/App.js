@@ -19,7 +19,7 @@ const App=()=> {
 
     return (
       <div>
-        <Router basename={'/Newsify'}>
+        <Router>
           <Navbar />
           <LoadingBar
             height={3}
