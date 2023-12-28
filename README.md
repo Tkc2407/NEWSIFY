@@ -13,9 +13,15 @@ Dive into full news articles effortlessly by clicking on the respective headline
 Whether on a desktop, tablet, or mobile device, the app ensures a consistent and enjoyable experience across different screen sizes.
 
 Technology Used
+
 => React
+
 => Bootstrap
+
 => Javascript
+
 => CSS
+
 => HTML
+
 => NewsAPI.org API
