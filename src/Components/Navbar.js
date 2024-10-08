@@ -1,11 +1,11 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import {Link} from "react-router-dom";
 
 const Navbar=()=> {
 
         return (
-            <div>
+            <>
                 <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                     <div className="container-fluid">
                         <Link className="navbar-brand" to="/Newsify">Newsify</Link>
@@ -43,7 +43,7 @@ const Navbar=()=> {
                         </div>
                     </div>
                 </nav>
-            </div>
+            </>
         )
 }
 
